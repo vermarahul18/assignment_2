@@ -1,0 +1,227 @@
+body {
+font-family: 'Roboto', sans-serif;
+font-size:17px;
+margin-top:50px;
+}
+
+.logo_style {
+  width:90px;
+  height:60px;
+  margin-top:-20px;
+}
+
+.navbar-default .navbar-brand {
+	color:rgb(0, 145, 0);
+	margin-left:-20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight:bold;
+}
+
+.navbar-default {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a  {
+	font-family: 'Roboto', sans-serif;
+	color:black;
+}
+
+
+.div_heading {
+  margin-top:20px;
+  text-align:center;
+}
+
+.para_style {
+  font-size:15px;
+  margin:5px 5px;
+}
+
+.section_img {
+	text-align:center;
+  position:relative;
+  height:300px;
+  width:350px;
+}
+
+.six_images {
+  height:350px;
+  padding:0px auto;
+}
+
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+.baselworld_div {
+	width:620px;
+	height:352px;
+	background-color:red;
+}
+
+.baselworld_img {
+  width: 100%;
+  height:330px;
+}
+
+.baselworld_text_div {
+	height:120px;
+	width:620px;
+  background-color:yellow;
+}
+
+.baselworld_text {
+  color:black; 
+  padding-top:8px;
+}
+
+.tennis_img {
+ width: 100%;
+ height:330px;
+}
+
+.equestrian {
+	width: 100%;
+	height:330px;
+}
+
+footer {
+	height:70px;
+	background-color:black;
+	width:100%;
+	margin-top:80px;
+}
+
+footer ul li {
+  display:inline;
+	padding-left:30px;
+}
+
+footer ul a {
+   text-decoration: none;
+   margin-top:30px;
+ }
+
+.li_style li {
+	padding-top:30px;
+}
+   
+footer a {
+	color:white;
+   padding-right:10px;
+}
+
+.footer_div1 {
+	padding-top:20px;
+	float:left;
+}
+
+.footer_div2 {
+	float:right;
+	margin-top:20px;
+}
+
+
+/*  Second Page css  ...................... */
+
+.text_div {
+  height:400px;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.heading_div {
+  text-align: center; 
+  padding:6px 6px;
+}
+
+.text2_div {
+  padding:10px 10px;
+  height:400px;
+}
+
+.img_box {
+  height:400px;
+  width:100%;
+}
+
+.youtube {
+  width:100%;
+}
+
+.parallax {
+  background-image: url("../img/store.jpg");
+  width:100%;
+  height:500px;
+  clear:both;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_div {
+	width:100%;
+	height:100px;
+	text-align:center;
+}
