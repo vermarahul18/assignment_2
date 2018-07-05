@@ -11,9 +11,9 @@
   <script aria-label="jquery loading" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script aria-label="Bootstrapcdn loading" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link aria-label="font-awesome" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-      crossorigin="anonymous">
+    crossorigin="anonymous">
   <link aria-label="google_fonts" href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
-  <link aria-label="custom class" href="css/custom.css" rel="stylesheet">
+  <link aria-label="custom class" href="css/style.css" rel="stylesheet">
   <title>Rolex</title>
 </head>
 
@@ -36,7 +36,7 @@
 
       <!-- Button for small screens -->
 
-      <button class="navbar-toggle" data-toggle="collapse" role= "list" data-target=".navHeaderCollapse">
+      <button aria-label="none" class="navbar-toggle" data-toggle="collapse" role="list" data-target=".navHeaderCollapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -45,7 +45,7 @@
       <!-- Navigation Bar List-->
 
       <div class="collapse navbar-collapse navHeaderCollapse">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right navbar_list">
           <li>
             <a aria-label="none" href="#"></a>
           </li>
@@ -83,178 +83,176 @@
   </nav>
 
   <section>
-  <!-- Carousel-->
-  
-  <div id="mycarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#mycarousel" data-slide-to="0" class="active "></li>
-      <li data-target="#mycarousel" data-slide-to="1"></li>
-      <li data-target="#mycarousel" data-slide-to="2"></li>
-    </ol>
+    <!-- Carousel-->
 
-    <div class="carousel-inner">
+    <div id="mycarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="0" class="active "></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2"></li>
+      </ol>
 
-      <div class="item active">
-        <img src="img/car1.jpg" alt="watch" class="img-responsive ">
-        <div class="carousel-caption">
-          <!--  <h3>Carousel 3</h3>  -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="img/car1.jpg" alt="watch" class="img-responsive ">
+          <div class="carousel-caption">
+            <!--  <h3>Carousel 3</h3>  -->
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/car2.jpg" alt="watch" class="img-responsive">
+          <div class="carousel-caption">
+            <!--  <h3>Carousel 3</h3>  -->
+          </div>
+        </div>
+
+        <div class="item carousel_div">
+          <img src="img/car3.jpeg" alt="watch" class="img-responsive">
+          <div class="carousel-caption">
+            <!--  <h3>Carousel 3</h3>  -->
+          </div>
+        </div>
+
+      </div>
+
+      <a aria-label="none" class="carousel-control left " href="#mycarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+
+      <a aria-label="none" class="carousel-control right " href="#mycarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+
+    </div>
+
+    <!-- Story of Rolex -->
+
+    <div class="container">
+      <h1 class="div_heading">Origins</h1>
+
+      <div class="col-lg-4  col-sm-6 col-xs-12">
+        <img src="img/hans.jpg" alt="founder" class="section_img">
+      </div>
+
+      <div class="col-lg-8">
+        <p class="para_style" style="float:left;">The history of Rolex is inextricably linked to the visionary spirit of Hans Wilsdorf, its founder. In 1905, at the
+          age of 24, Hans Wilsdorf founded a company in London specialising in the distribution of timepieces. He began to
+          dream of a watch worn on the wrist. Wristwatches were not very precise at the time, but Hans Wilsdorf foresaw that
+          they could become not only elegant, but also reliable.
+          <a aria-label="second_page" href="origins.html">(Know More)</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Types of Watches-->
+
+    <h1 class="div_heading">The Collection</h1>
+
+    <div class="container">
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/submariner.jpg" class="six_images hvrbox-layer_bottom ">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Submariner</div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/daytona.jpg" class="six_images hvrbox-layer_bottom">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Cosmograph-Daytona</div>
+        </div>
+
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/test1.jpg" class="six_images hvrbox-layer_bottom">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Yacht-Master</div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/pearls.jpg" class="six_images hvrbox-layer_bottom">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Pearl Master</div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/Rolex.png" class="six_images hvrbox-layer_bottom">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Date Just II</div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
+
+        <img alt="AltText" src="img/last_test.jpg" class="six_images hvrbox-layer_bottom">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Vintage</div>
         </div>
       </div>
 
-      <div class="item">
-        <img src="img/car2.jpg" alt="watch" class="img-responsive">
-        <div class="carousel-caption">
-          <!--  <h3>Carousel 3</h3>  -->
-        </div>
+      <!-- Rolex Sponsored Events-->
+      <h1 class="div_heading"></h1>
+      <h1 class="div_heading">Significant Events</h1>
+
+
+      <div class="container col-lg-6">
+        <img src="img/baselworld.JPG" alt="baselworld1" class="baselworld_img">
+        <p class="baselworld_text">The new GMT-Master II versions introduced in 2018 is in Oystersteel. It is fitted onto a five-link Jubilee bracelet
+          and has a bidirectional rotatable bezel and a 24-hour graduated two-colour Cerachrom insert in red and blue ceramic.It
+          uses Calibre 3285 which incorporates the Chronergy escapement patented by Rolex.
+        </p>
       </div>
 
-      <div class="item carousel_div">
-        <img src="img/car3.jpeg" alt="watch" class="img-responsive">
-        <div class="carousel-caption">
-          <!--  <h3>Carousel 3</h3>  -->
-        </div>
+
+      <div class="container col-lg-6">
+        <img src="img/equestrian.webp" alt="baselworld1" class="baselworld_img">
+        <p class="baselworld_text">The Royal Windsor Horse Show has been held annually since 1943. For five days in May or June, an elite array of equestrian
+          talent gathers in the grounds of Windsor Castle in the United Kingdom, for a majestic international competition
+          in dressage, show jumping, carriage driving and endurance riding.</p>
       </div>
 
-    </div>
+      <div class="container col-lg-6">
+        <img src="img/wimbledon.webp" alt="wimbledon" class="tennis_img" />
+        <p class="baselworld_text">The partnership between Rolex and tennis dates back to 1978 when Rolex became the Official Timekeeper of The Championships,
+          Wimbledon. This marked the beginning of a privileged association between two partners driven by the same pursuit
+          of excellence. They celebrate their 40th anniversary this year.</p>
+      </div>
 
-    <a aria-label="none" class="carousel-control left " href="#mycarousel" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
+      <div class="container col-lg-6">
+        <img src="img/monte_carlo.webp" alt="wimbledon" class="tennis_img" />
+        <p class="baselworld_text">For nine days, 56 players battle it out before a best-of-three final decides the Rolex Monte-Carlo Masters champion.
+          Held since 1928 at the Monte-Carlo Country Club. The setting – with its twenty courts on terraces overlooking the
+          Mediterranean is considered the most beautiful in the world.</p>
+      </div>
 
-    <a aria-label="none" class="carousel-control right " href="#mycarousel" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
+      <div class="container col-lg-6">
+        <img src="img/f_1.webp" alt="wimbledon" class="tennis_img" />
+        <p class="baselworld_text">In early 2013, Rolex became a Global Partner and Official Timepiece of Formula 1, the pinnacle of motor sports. Like
+          Rolex, Formula 1 is present the world over, with 21 races organized in 21 countries across five continents</p>
+      </div>
 
-  </div>
-
-  <!-- Story of Rolex -->
-
-  <div class="container">
-    <h1 class="div_heading">Origins</h1>
-
-    <div class="col-lg-4">
-      <img src="img/hans.jpg" alt="founder" class="section_img">
-    </div>
-
-    <div class="col-lg-8">
-      <p class="para_style" style="float:left;">The history of Rolex is inextricably linked to the visionary spirit of Hans Wilsdorf, its founder. In 1905, at the
-        age of 24, Hans Wilsdorf founded a company in London specialising in the distribution of timepieces. He began to
-        dream of a watch worn on the wrist. Wristwatches were not very precise at the time, but Hans Wilsdorf foresaw that
-        they could become not only elegant, but also reliable.
-        <a aria-label="second_page" href="origins.html">(Know More)</a>
-      </p>
-    </div>
-  </div>
-
-  <!-- Types of Watches-->
-
-  <h1 class="div_heading">The Collection</h1>
-
-  <div class="container">
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/submariner.jpg" class="six_images hvrbox-layer_bottom ">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Submariner</div>
+      <div class="container col-lg-6">
+        <img src="img/golf.jpg" alt="wimbledon" class="tennis_img" />
+        <p class="baselworld_text">Rolex’s immense involvement in golf is deep-rooted. Strong support for top-level players, the main professional tours
+          and governing bodies, as well as the finest events in the golfing has placed Rolex for more than 50 years </p>
       </div>
 
     </div>
 
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/daytona.jpg" class="six_images hvrbox-layer_bottom">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Cosmograph-Daytona</div>
-      </div>
-
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/test1.jpg" class="six_images hvrbox-layer_bottom">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Yacht-Master</div>
-      </div>
-
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/pearls.jpg" class="six_images hvrbox-layer_bottom">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Pearl Master</div>
-      </div>
-
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/Rolex.png" class="six_images hvrbox-layer_bottom">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Date Just II</div>
-      </div>
-
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 hvrbox">
-
-      <img alt="AltText" src="img/last_test.jpg" class="six_images hvrbox-layer_bottom">
-      <div class="hvrbox-layer_top">
-        <div class="hvrbox-text">Vintage</div>
-      </div>
-    </div>
-
-    <!-- Rolex Sponsored Events-->
-    <h1 class="div_heading"></h1>
-    <h1 class="div_heading">Significant Events</h1>
-
-
-    <div class="container col-lg-6">
-      <img src="img/baselworld.JPG" alt="baselworld1" class="baselworld_img">
-      <p class="baselworld_text">The new GMT-Master II versions introduced in 2018 is in Oystersteel. It is fitted onto a five-link Jubilee bracelet
-        and has a bidirectional rotatable bezel and a 24-hour graduated two-colour Cerachrom insert in red and blue ceramic.It
-        uses Calibre 3285 which incorporates the Chronergy escapement patented by Rolex.
-      </p>
-    </div>
-
-
-    <div class="container col-lg-6">
-      <img src="img/equestrian.webp" alt="baselworld1" class="baselworld_img">
-      <p class="baselworld_text">The Royal Windsor Horse Show has been held annually 
-        since 1943. For five days in May or June, an elite array of equestrian talent
-         gathers in the grounds of Windsor Castle in the United Kingdom, for a 
-         majestic international competition in dressage, show jumping, carriage 
-         driving and endurance riding.</p>
-    </div>
-
-    <div class="container col-lg-6">
-      <img src="img/wimbledon.webp" alt="wimbledon" class="tennis_img" />
-      <p class="baselworld_text">The partnership between Rolex and tennis dates back to 1978 when Rolex became the Official Timekeeper of The Championships,
-        Wimbledon. This marked the beginning of a privileged association between two partners driven by the same pursuit
-        of excellence. They celebrate their 40th anniversary this year.</p>
-    </div>
-
-    <div class="container col-lg-6">
-      <img src="img/monte_carlo.webp" alt="wimbledon" class="tennis_img" />
-      <p class="baselworld_text">For nine days, 56 players battle it out before a best-of-three final decides the Rolex Monte-Carlo Masters champion.
-         Held since 1928 at the Monte-Carlo Country Club. The setting –
-        with its twenty courts on terraces overlooking the Mediterranean is considered the most beautiful in the world.</p>
-    </div>
-
-    <div class="container col-lg-6">
-      <img src="img/f_1.webp" alt="wimbledon" class="tennis_img" />
-      <p class="baselworld_text">In early 2013, Rolex became a Global Partner and Official Timepiece of Formula 1, the pinnacle of motor sports. Like
-        Rolex, Formula 1 is present the world over, with 21 races organized in 21 countries across five continents</p>
-    </div>
-
-    <div class="container col-lg-6">
-      <img src="img/golf.jpg" alt="wimbledon" class="tennis_img" />
-      <p class="baselworld_text">Rolex’s immense involvement in golf is deep-rooted. Strong support for top-level players, the main professional tours
-        and governing bodies, as well as the finest events in the golfing has placed Rolex for more than 50 years </p>
-    </div>
-
-  </div>
-
-  </section>  
+  </section>
   <!-- Footer-->
 
   <footer>
